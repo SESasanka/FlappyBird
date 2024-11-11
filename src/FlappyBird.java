@@ -85,7 +85,7 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener{
                 placePipes();
             }
         });
-        placePipesTimer.start();
+        placePipesTimer.start();  
 
         //game timer
         gameLoop = new Timer(1000/60, this);
